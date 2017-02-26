@@ -12,6 +12,7 @@
 		570DB8DA1E62ECD500C4199C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570DB8D81E62ECD500C4199C /* Main.storyboard */; };
 		570DB8DC1E62ECD500C4199C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 570DB8DB1E62ECD500C4199C /* Assets.xcassets */; };
 		570DB8DF1E62ECD500C4199C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 570DB8DD1E62ECD500C4199C /* LaunchScreen.storyboard */; };
+		573B81961E62F282002DB4D0 /* ResultViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 573B81951E62F282002DB4D0 /* ResultViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		570DB8DB1E62ECD500C4199C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		570DB8DE1E62ECD500C4199C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		570DB8E01E62ECD500C4199C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		573B81951E62F282002DB4D0 /* ResultViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResultViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				570DB8D41E62ECD500C4199C /* AppDelegate.swift */,
 				570DB8D61E62ECD500C4199C /* ViewController.swift */,
+				573B81951E62F282002DB4D0 /* ResultViewController.swift */,
 				570DB8D81E62ECD500C4199C /* Main.storyboard */,
 				570DB8DB1E62ECD500C4199C /* Assets.xcassets */,
 				570DB8DD1E62ECD500C4199C /* LaunchScreen.storyboard */,
@@ -139,6 +142,7 @@
 			files = (
 				570DB8D71E62ECD500C4199C /* ViewController.swift in Sources */,
 				570DB8D51E62ECD500C4199C /* AppDelegate.swift in Sources */,
+				573B81961E62F282002DB4D0 /* ResultViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +304,7 @@
 				570DB8E51E62ECD500C4199C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
